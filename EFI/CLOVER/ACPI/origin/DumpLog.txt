@@ -1,0 +1,150 @@
+31:596  3:925  Found BIOS RSDP at FCC00
+31:596  0:000  Printing ACPI tables from RSDP FCC00 ...
+31:596  0:000   FCC00: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+31:596  0:000    (Xsdt: 982FB098, Rsdt: 982FB028)
+31:596  0:000    982FB098: 'XSDT', 'MEGABOOK', Rev: 1, Len: 180
+31:596  0:000    982FB028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 108
+31:596  0:000    Tables in Xsdt: 18
+31:596  0:000    0. 98311510: 'FACP', 'MEGABOOK', Rev: 5, Len: 268
+31:596  0:000        (Dsdt: 982FB1E8, Facs: 98CBEF80, XDsdt: 982FB1E8, XFacs: 0)
+31:596  0:000        982FB1E8: 'DSDT', 'MEGABOOK', Rev: 2, Len: 90917
+31:597  0:001        98CBEF80: 'FACS', Ver: 2, Len: 64
+31:597  0:000    1. 98311620: 'APIC', 'MEGABOOK', Rev: 3, Len: 188
+31:597  0:000    2. 983116E0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+31:597  0:000    3. 98311728: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+31:597  0:000    4. 983117C8: 'ECDT', 'MEGABOOK', Rev: 1, Len: 193
+31:597  0:000    5. 98311890: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+31:597  0:000    6. 983118D0: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+31:597  0:000    7. 98311908: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+31:597  0:000    8. 98311C20: 'UEFI', '', Rev: 1, Len: 66
+31:597  0:000    9. 98311C68: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+31:597  0:000    10. 983128E8: 'ASF!', ' HCG', Rev: 32, Len: 160
+31:597  0:000    11. 98312988: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+31:597  0:000    12. 98312B00: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+31:597  0:000    13. 98313040: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+31:597  0:000    14. 98313BB8: 'SSDT', 'SaSsdt', Rev: 2, Len: 24084
+31:597  0:000    15. 983199D0: 'SSDT', 'SgPeg', Rev: 2, Len: 663
+31:597  0:000    16. 98319C68: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+31:597  0:000    17. 98319CA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5077
+31:597  0:000    Tables in Rsdt: 18
+31:597  0:000    0. 982FB160: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+31:597  0:000        (Dsdt: 982FB1E8, Facs: 98CBEF40)
+31:597  0:000        982FB1E8: 'DSDT', 'MEGABOOK', Rev: 2, Len: 90917
+31:599  0:001        98CBEF40: 'FACS', Ver: 0, Len: 64
+31:599  0:000    1. 98311620: 'APIC', 'MEGABOOK', Rev: 3, Len: 188
+31:599  0:000    2. 983116E0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+31:599  0:000    3. 98311728: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+31:599  0:000    4. 983117C8: 'ECDT', 'MEGABOOK', Rev: 1, Len: 193
+31:599  0:000    5. 98311890: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+31:599  0:000    6. 983118D0: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+31:599  0:000    7. 98311908: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+31:599  0:000    8. 98311C20: 'UEFI', '', Rev: 1, Len: 66
+31:599  0:000    9. 98311C68: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+31:599  0:000    10. 983128E8: 'ASF!', ' HCG', Rev: 32, Len: 160
+31:599  0:000    11. 98312988: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+31:599  0:000    12. 98312B00: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+31:599  0:000    13. 98313040: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+31:599  0:000    14. 98313BB8: 'SSDT', 'SaSsdt', Rev: 2, Len: 24084
+31:599  0:000    15. 983199D0: 'SSDT', 'SgPeg', Rev: 2, Len: 663
+31:599  0:000    16. 98319C68: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+31:599  0:000    17. 98319CA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5077
+31:599  0:000  Found UEFI Acpi 2.0 RSDP at 982FB000
+31:599  0:000  Saving ACPI tables from RSDP 982FB000 to EFI\CLOVER\ACPI\origin ...
+31:599  0:000   982FB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+31:599  0:000    (Xsdt: 982FB098, Rsdt: 982FB028)
+31:599  0:000    982FB098: 'XSDT', 'MEGABOOK', Rev: 1, Len: 180
+31:599  0:000    982FB028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 108
+31:599  0:000    Tables in Xsdt: 18
+31:599  0:000    0. 98311510: 'FACP', 'MEGABOOK', Rev: 5, Len: 268
+31:599  0:000        (Dsdt: 982FB1E8, Facs: 98CBEF80, XDsdt: 982FB1E8, XFacs: 0)
+31:599  0:000        982FB1E8: 'DSDT', 'MEGABOOK', Rev: 2, Len: 90917
+31:600  0:001        98CBEF80: 'FACS', Ver: 2, Len: 64
+31:600  0:000    1. 98311620: 'APIC', 'MEGABOOK', Rev: 3, Len: 188
+31:600  0:000    2. 983116E0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+31:600  0:000    3. 98311728: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+31:600  0:000    4. 983117C8: 'ECDT', 'MEGABOOK', Rev: 1, Len: 193
+31:600  0:000    5. 98311890: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+31:600  0:000    6. 983118D0: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+31:600  0:000    7. 98311908: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+31:600  0:000    8. 98311C20: 'UEFI', '', Rev: 1, Len: 66
+31:600  0:000    9. 98311C68: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+31:600  0:000    10. 983128E8: 'ASF!', ' HCG', Rev: 32, Len: 160
+31:600  0:000    11. 98312988: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+31:600  0:000    12. 98312B00: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+31:600  0:000    13. 98313040: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+31:600  0:000    14. 98313BB8: 'SSDT', 'SaSsdt', Rev: 2, Len: 24084
+31:600  0:000    15. 983199D0: 'SSDT', 'SgPeg', Rev: 2, Len: 663
+31:600  0:000    16. 98319C68: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+31:600  0:000    17. 98319CA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5077
+31:600  0:000    Tables in Rsdt: 18
+31:600  0:000    0. 982FB160: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+31:600  0:000        (Dsdt: 982FB1E8, Facs: 98CBEF40)
+31:600  0:000        982FB1E8: 'DSDT', 'MEGABOOK', Rev: 2, Len: 90917
+31:602  0:001        98CBEF40: 'FACS', Ver: 0, Len: 64
+31:602  0:000    1. 98311620: 'APIC', 'MEGABOOK', Rev: 3, Len: 188
+31:602  0:000    2. 983116E0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+31:602  0:000    3. 98311728: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+31:602  0:000    4. 983117C8: 'ECDT', 'MEGABOOK', Rev: 1, Len: 193
+31:602  0:000    5. 98311890: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+31:602  0:000    6. 983118D0: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+31:602  0:000    7. 98311908: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+31:602  0:000    8. 98311C20: 'UEFI', '', Rev: 1, Len: 66
+31:602  0:000    9. 98311C68: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+31:602  0:000    10. 983128E8: 'ASF!', ' HCG', Rev: 32, Len: 160
+31:602  0:000    11. 98312988: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+31:602  0:000    12. 98312B00: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+31:602  0:000    13. 98313040: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+31:602  0:000    14. 98313BB8: 'SSDT', 'SaSsdt', Rev: 2, Len: 24084
+31:602  0:000    15. 983199D0: 'SSDT', 'SgPeg', Rev: 2, Len: 663
+31:602  0:000    16. 98319C68: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+31:602  0:000    17. 98319CA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5077
+31:602  0:000  Found UEFI Acpi 1.0 RSDP at 982FB000
+31:602  0:000  Printing ACPI tables from RSDP 982FB000 ...
+31:602  0:000   982FB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+31:602  0:000    (Xsdt: 982FB098, Rsdt: 982FB028)
+31:602  0:000    982FB098: 'XSDT', 'MEGABOOK', Rev: 1, Len: 180
+31:602  0:000    982FB028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 108
+31:602  0:000    Tables in Xsdt: 18
+31:602  0:000    0. 98311510: 'FACP', 'MEGABOOK', Rev: 5, Len: 268
+31:602  0:000        (Dsdt: 982FB1E8, Facs: 98CBEF80, XDsdt: 982FB1E8, XFacs: 0)
+31:602  0:000        982FB1E8: 'DSDT', 'MEGABOOK', Rev: 2, Len: 90917
+31:603  0:001        98CBEF80: 'FACS', Ver: 2, Len: 64
+31:603  0:000    1. 98311620: 'APIC', 'MEGABOOK', Rev: 3, Len: 188
+31:603  0:000    2. 983116E0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+31:603  0:000    3. 98311728: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+31:603  0:000    4. 983117C8: 'ECDT', 'MEGABOOK', Rev: 1, Len: 193
+31:603  0:000    5. 98311890: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+31:603  0:000    6. 983118D0: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+31:603  0:000    7. 98311908: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+31:603  0:000    8. 98311C20: 'UEFI', '', Rev: 1, Len: 66
+31:603  0:000    9. 98311C68: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+31:603  0:000    10. 983128E8: 'ASF!', ' HCG', Rev: 32, Len: 160
+31:603  0:000    11. 98312988: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+31:603  0:000    12. 98312B00: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+31:603  0:000    13. 98313040: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+31:603  0:000    14. 98313BB8: 'SSDT', 'SaSsdt', Rev: 2, Len: 24084
+31:603  0:000    15. 983199D0: 'SSDT', 'SgPeg', Rev: 2, Len: 663
+31:603  0:000    16. 98319C68: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+31:603  0:000    17. 98319CA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5077
+31:603  0:000    Tables in Rsdt: 18
+31:603  0:000    0. 982FB160: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+31:603  0:000        (Dsdt: 982FB1E8, Facs: 98CBEF40)
+31:603  0:000        982FB1E8: 'DSDT', 'MEGABOOK', Rev: 2, Len: 90917
+31:604  0:001        98CBEF40: 'FACS', Ver: 0, Len: 64
+31:604  0:000    1. 98311620: 'APIC', 'MEGABOOK', Rev: 3, Len: 188
+31:604  0:000    2. 983116E0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+31:604  0:000    3. 98311728: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+31:604  0:000    4. 983117C8: 'ECDT', 'MEGABOOK', Rev: 1, Len: 193
+31:604  0:000    5. 98311890: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+31:605  0:000    6. 983118D0: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+31:605  0:000    7. 98311908: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+31:605  0:000    8. 98311C20: 'UEFI', '', Rev: 1, Len: 66
+31:605  0:000    9. 98311C68: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+31:605  0:000    10. 983128E8: 'ASF!', ' HCG', Rev: 32, Len: 160
+31:605  0:000    11. 98312988: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+31:605  0:000    12. 98312B00: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+31:605  0:000    13. 98313040: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+31:605  0:000    14. 98313BB8: 'SSDT', 'SaSsdt', Rev: 2, Len: 24084
+31:605  0:000    15. 983199D0: 'SSDT', 'SgPeg', Rev: 2, Len: 663
+31:605  0:000    16. 98319C68: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+31:605  0:000    17. 98319CA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5077
