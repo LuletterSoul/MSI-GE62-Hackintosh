@@ -859,7 +859,7 @@
 				<key>Comment</key>
 				<string>HDMI-audio, port 0204, 0x160e0001 0x161e0001 (2 of 2)</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				/wAAAAEAAABAAAAAAAA=
@@ -873,6 +873,92 @@
 				AgQJAAAIAACCAAAA/wA=
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>在Brcm4360驱动中添加BCM94352z的设备ID：0x43b114e4</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<string>pci14e4,43a0</string>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>MatchOS</key>
+				<string>10.12.x</string>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<string>pci14e4,43b1</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>初始化fvco以加载BCM4360驱动[10.12.x] - Darkvoid</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				gflSqgAAdSk=
+				</data>
+				<key>MatchOS</key>
+				<string>10.12.x</string>
+				<key>Name</key>
+				<string>com.apple.driver.AirPort.Brcm4360</string>
+				<key>Replace</key>
+				<data>
+				gflSqgAAZpA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>在Brcm4360驱动中添加BCM94352z的设备ID：0x43b114e4</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<string>pci14e4,43a0</string>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>MatchOS</key>
+				<string>10.13.x</string>
+				<key>Name</key>
+				<string>AirPortBrcmNIC</string>
+				<key>Replace</key>
+				<string>pci14e4,43b1</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>初始化fvco以加载BCM4360驱动[10.13.x]</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				gflSqgAAdSk=
+				</data>
+				<key>MatchOS</key>
+				<string>10.13.x</string>
+				<key>Name</key>
+				<string>AirPortBrcmNIC</string>
+				<key>Replace</key>
+				<data>
+				gflSqgAAZpA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.11+-BT4LE-Handoff-Hotspot-lisai9093</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				SIX/dEdIiwc=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>IOBluetoothFamily</string>
+				<key>Replace</key>
+				<data>
+				Qb4PAAAA60Q=
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -881,6 +967,10 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>ROM</key>
+		<data>
+		jQZCLfYt
+		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -888,13 +978,57 @@
 		<string>MacBook8,1</string>
 		<key>#ProductName-MacBookAir7</key>
 		<string>MacBookAir7,1</string>
+		<key>BiosReleaseDate</key>
+		<string>09/17/2018</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>MBP121.88Z.0178.B00.1809171422</string>
+		<key>Board-ID</key>
+		<string>Mac-E43C1C25D4880AD6</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02704701GUGDVVJC</string>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>1.0</string>
+		<key>ChassisAssetTag</key>
+		<string>MacBook-Aluminum</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>180.0.0.0.0</string>
+		<key>Family</key>
+		<string>MacBook Pro</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFC0FE137</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>Mobile</key>
+		<true/>
+		<key>PlatformFeature</key>
+		<string>0x02</string>
 		<key>ProductName</key>
 		<string>MacBookPro12,1</string>
-		<key>Trust</key>
-		<true/>
+		<key>SerialNumber</key>
+		<string>C02T5LZAH1DP</string>
+		<key>SmUUID</key>
+		<string>CA7D8ABE-50E1-40F3-A8DF-C6E6FF634D5C</string>
+		<key>Version</key>
+		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>CA7D8ABE-50E1-40F3-A8DF-C6E6FF634D5C</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 	</dict>
